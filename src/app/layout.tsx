@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "MateMeet",
   description: "Start meeting with your mates.",
   icons: {
-    icon: "/icons/yoom-logo.svg"
+    icon: "/icons/logo.svg"
   }
 };
 
