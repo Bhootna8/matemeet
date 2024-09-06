@@ -79,7 +79,7 @@ const MeetingRoom = () => {
             {["Grid", "Speaker-Left", "Speaker-Right"].map((item, i) => (
               <div key={i}>
                 <DropdownMenuItem
-                  onClick={() =>
+                  onChange={() =>
                     setLayout(item?.toLowerCase() as CallLayoutType)
                   }
                 >
